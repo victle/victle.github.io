@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello World</title>
-	<meta charset = "utf-8">
-        <style> </style>
+        <title>Victor Le, PhD Mechanical Engineering</title>
+	    <meta charset = "utf-8">
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
 
     <body>
-        <h1> Welcome!</h1>
-        <img src="images/doge.png" alt="Maisey lying in bed like a human.">
+        <div id="all-content-container">
+
+            <div class="top-bar">
+                <div id="portrait-container">
+                    <img src="images/Le, Victor_square.jpg" alt="Maisey lying in bed like a human." id="portrait">
+                    <h1>Victor Le</h1>
+                    <h1>University of Michigan</h1>
+                </div>
+                
+                <div id="summary">
+                    <p>ABD PhD candidate in Mechanical Engineering 
+                        at the University of Michigan, intending to graduate in August 2021. 
+                        Independent researcher with tangible, applied project experience using data 
+                        science and machine learning approaches. Constantly learning new techniques and skills
+                        for an ever-changing world.</p>
+                </div>
+                
+                <div id="contact-info">
+                    <!-- <nav id="navbar"> 
+                        <ul>
+                            <li>Resume</li>
+                            <li>Projects</li>
+                        </ul>
+                    </nav> -->
+                    <!-- <p>Resume</p>
+                    <p>Projects</p> -->
+                    <p>victle@umich.edu</p>
+                </div>
+
+
+                <hr>
+            </div>
+
+            
+            
+            <div id="project-container">
+                <div class="project-card" id="HiddenMarkovModel">
+                    <h2 class="project-title">Hidden Markov Model Classifier for Human Activity Recognition</h2>
+                    <ul>
+                        <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
+                        <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
+                        <li>Validated performance over published results in available literature, reproducing accuracy of 91.43%</li>
+                    </ul>
+                </div>
+
+                <div class="project-card" id="HiddenMarkovModel">
+                    <h2 class="project-title">Hidden Markov Model Classifier for Human Activity Recognition</h2>
+                    <ul>
+                        <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
+                        <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
+                        <li>Validated performance over published results in available literature, reproducing accuracy of 91.43%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
