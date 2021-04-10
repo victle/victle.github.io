@@ -1,5 +1,6 @@
 :root {
   --cactus: linear-gradient(90deg, #C6EA8D 0%, #FE90AF 100%);
+  --piglet: linear-gradient(180deg, rgba(238,156,167, 0.8) 0%, rgba(255,221, 225, 0) 40%);
 }
 
 html {
@@ -8,8 +9,14 @@ html {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 45px;
   text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  position: relative;
+  left: 5%;
 }
 
 img[src] {
@@ -35,6 +42,7 @@ body {
   background-color: rgba(255,255,255,1);
   /* border-style: solid; */
   box-shadow: 0px 0px 10px 5px rgb(10,10,10);
+  min-width: 800px;
 }
 
 .top-bar {
@@ -48,11 +56,11 @@ body {
   position: absolute;
   width: 50%;
   margin: auto;
-  top: 30%;
-  right: 10%;
+  top: 5%;
+  right: 7%;
   text-align: left;
   /* background-color: blue; */
-  font-size: 16px;
+  font-size: 18px;
   z-index: 1;
 }
 
@@ -60,8 +68,8 @@ body {
   /* width: 200px;
   height: 200px; */
   position: absolute;
-  top: 3em;
-  left: 10%;
+  top: 10px;
+  left: 100px;
   /* background-color: yellow; */
   z-index: 2;
 }
@@ -95,18 +103,17 @@ nav li {
   margin-top: 2em;
   margin-left: 5%;
   width: 50%;
-  border-radius: 40px;
-  border-color: silver;
+  border-radius: 20px;
+  border-color: black;
   border-style: solid;
   box-shadow: 5px 5px 5px rgb(10, 10, 10);
-  padding: 1em 0 0 1em;
-  background: var(--cactus);
+  padding: 1em 2em;
+  background: var(--piglet);
+  transition: 0.5s;
 }
 
 .project-card:hover {
-  animation-name: project-enlarge;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
+  transform: scale(1.1);
 }
 
 
@@ -121,8 +128,4 @@ li {
 
 
 /* All animations down here */
-@keyframes project-enlarge {
-  100% {
-    transform: scale(1.1);
-  }
-}
+
