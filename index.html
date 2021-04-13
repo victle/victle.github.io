@@ -14,7 +14,7 @@
 
             <div class="top-bar">
                 <div id="portrait-container">
-                    <img src="images/Le, Victor_square.jpg" alt="Maisey lying in bed like a human." id="portrait">
+                    <img src="images/Le, Victor_square.jpg" alt="Professional Headshot" id="portrait">
                     <h1>Victor Le</h1>
                 </div>
                 
@@ -25,20 +25,28 @@
                         science and machine learning approaches. Constantly learning new techniques and skills
                         for an ever-changing world.</p>
 
-                    <p>SKILLS: Python (Pandas, Numpy, Tensorflow/Keras, PySpark, NLP), R, MATLAB, MySQL, Java
-                    </p>
+                    <!-- <p>SKILLS: Python (Pandas, Numpy, Tensorflow/Keras, PySpark, NLP), R, MATLAB, MySQL, Java
+                    </p> -->
+                    
+                    <a href="https://www.linkedin.com/in/victor-l-aa035875/">
+                        <img src="images/linkedin.png" alt="LinkedIn Icon" class="logos" id="linkedin"> 
+                    </a>
+                    <a href="https://www.github.com/victle">
+                        <img src="images/github.png" alt="Github Icon" class="logos" id="github">
+                    </a>
+                    <p style="float:right;">victle@gmail.com</p>
                 </div>
                 
                 <div id="contact-info">
-                    <!-- <nav id="navbar"> 
+                     <!-- <nav id="navbar"> 
                         <ul>
                             <li>Resume</li>
                             <li>Projects</li>
                         </ul>
-                    </nav> -->
-                    <!-- <p>Resume</p>
-                    <p>Projects</p> -->
-                    <p>victle@gmail.com</p>
+                    </nav>
+                    <p>Resume</p>
+                    <p>Projects</p>
+                    <p>victle@gmail.com</p> -->
                 </div>
 
 
@@ -47,28 +55,55 @@
 
             
             <main>
+                <section> 
+                    <h2>Data Science Projects</h2>
 
-                <h2>Data Science Projects</h2>
+                    <div id="project-container">
+                        <div class="project-card" id="HiddenMarkovModel">
+                            <h3 class="project-title">Hidden Markov Model Classifier for Human Activity Recognition</h3>
+                            <ul>
+                                <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
+                                <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
+                                <li>Validated performance over published results in available literature, reproducing accuracy of 91.43%</li>
+                            </ul>
+                        </div>
 
-                <div id="project-container">
-                    <div class="project-card" id="HiddenMarkovModel">
-                        <h3 class="project-title">Hidden Markov Model Classifier for Human Activity Recognition</h2>
-                        <ul>
-                            <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
-                            <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
-                            <li>Validated performance over published results in available literature, reproducing accuracy of 91.43%</li>
-                        </ul>
+                        <div class="project-card" id="Sentiment">
+                            <h3 class="project-title">Sentiment Analysis of GOP Tweets during Presidential Debate</h3> 
+                            <!-- <img src="images/github.png" alt="Github Icon" class="logoproject"> -->
+                            <ul>
+                                <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
+                                <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
+                                <li>Packaged trained model using FastAPI, and deployed using uvicorn server on Heroku for custom user input</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section> 
+                    <h2>Research Experience</h2>
+
+                    <div id="research-container">
+                        <div class="project-card" id="Dehydration">
+                            <h3 class="project-title">Hidden Markov Model Classifier for Human Activity Recognition</h3>
+                            <ul>
+                                <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
+                                <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
+                                <li>Validated performance over published results in available literature, reproducing accuracy of 91.43%</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-card" id="MotionSickness">
+                            <h3 class="project-title">Sentiment Analysis of GOP Tweets during Presidential Debate</h3>
+                            <ul>
+                                <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
+                                <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
+                                <li>Packaged trained model using FastAPI, and deployed using uvicorn server on Heroku for custom user input</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div class="project-card" id="Sentiment">
-                        <h3 class="project-title">Sentiment Analysis of GOP Tweets during Presidential Debate</h2>
-                        <ul>
-                            <li>Researched, proposed, and developed a model for classifying 6 activities in humans using IMU’s</li>
-                            <li>Designed and implemented from the ground up a classifier in Python based on a Hidden Markov Models</li>
-                            <li>Packaged trained model using FastAPI, and deployed using uvicorn server on Heroku for custom user input</li>
-                        </ul>
-                    </div>
-                </div>
+                </section>
             </main>
         </div>
     </body>
