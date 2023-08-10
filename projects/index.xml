@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Victor Le</title>
+    <link>http://victorchanle.com/projects/</link>
+    <description>Recent content in Projects on Victor Le</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://victorchanle.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Current Role</title>
+      <link>http://victorchanle.com/projects/frontier-communications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://victorchanle.com/projects/frontier-communications/</guid>
+      <description>Though exact details of my work are proprietary, I can highlight the breadth of the work that I&amp;rsquo;ve performed at Frontier Communcations. For context, Frontier Communications is a large-sized telecommunications company, aiming to provide fiber and copper service across the United States. In my current role, I worked on the network strategy team, harnessing network data (i.e., bit rate) to push data-driven decisions for the operations teams.
+Constructed numerous ETL pipelines by leveraging cloud architecture and data engineering practices Compiled disjoint data sets to create a large-scale, standardized database used across network teams Swiftly delivered key analyses of the telecoms network using automated dashboards Developed machine learning models to identify and improve customer experience and service </description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>http://victorchanle.com/projects/photography/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://victorchanle.com/projects/photography/</guid>
+      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>http://victorchanle.com/projects/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://victorchanle.com/projects/design/</guid>
+      <description>This theme was designed by Victoria Drake. Go on, explore! 💪
+If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>http://victorchanle.com/projects/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://victorchanle.com/projects/writing/</guid>
+      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
+To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+    </item>
+    
+  </channel>
+</rss>
