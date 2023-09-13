@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Victor Le</title>
-    <link>http://victorchanle.com/projects/</link>
+    <link>https://victorchanle.com/projects/</link>
     <description>Recent content in Projects on Victor Le</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://victorchanle.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://victorchanle.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Current Role</title>
-      <link>http://victorchanle.com/projects/frontier-communications/</link>
+      <link>https://victorchanle.com/projects/frontier-communications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://victorchanle.com/projects/frontier-communications/</guid>
+      <guid>https://victorchanle.com/projects/frontier-communications/</guid>
       <description>TLDR
 At Frontier Communications, I enabled powerful analyses of disparate datasets by developing and maintaining complex cloud-based ETL pipelines. Subsequently, I built robust, predictive models and dashboards to empower network operations teams&amp;rsquo; responses to customer service issues.
 Description Though exact details are proprietary, I will highlight the breadth of the work that I&amp;rsquo;ve performed at Frontier Communcations. For context, Frontier Communications is a large-sized telecommunications company, aiming to provide fiber and copper service across the United States.</description>
@@ -19,31 +19,31 @@ Description Though exact details are proprietary, I will highlight the breadth o
     
     <item>
       <title>Academia</title>
-      <link>http://victorchanle.com/projects/research/</link>
+      <link>https://victorchanle.com/projects/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://victorchanle.com/projects/research/</guid>
-      <description>Academic Research At the University of Michigan in Ann Arbor, I researched specific applications of wearable devices for secondary health monitoring. In particular, my research focused on the intersection of data science, signal processing, and biomechanics towards preventing motion sickness and dehydration.
-Motion Sickness WIP
-Dehydration WIP</description>
+      <guid>https://victorchanle.com/projects/research/</guid>
+      <description>Academic Research At the University of Michigan in Ann Arbor, I researched specific applications of wearable technology for health monitoring. In particular, I researched the intersection of data science, signal processing, and biomechanics to enhance secondary prevention of motion sickness and dehydration. In these excerpts, I&amp;rsquo;ll quickly summarize the tangible, experimental work I completed.
+For context, an abstract is copied below. For an in-depth look at the whole body of work, please refer to my dissertation.</description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>http://victorchanle.com/projects/music/</link>
+      <link>https://victorchanle.com/projects/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://victorchanle.com/projects/music/</guid>
-      <description>A personal project between me and my friends. i hit things.
+      <guid>https://victorchanle.com/projects/music/</guid>
+      <description>a personal project between me and my friends. i hit things.
+so far, we&amp;rsquo;ve released two singles; expect an EP soon!
 Spotify</description>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>http://victorchanle.com/projects/photography/</link>
+      <link>https://victorchanle.com/projects/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://victorchanle.com/projects/photography/</guid>
+      <guid>https://victorchanle.com/projects/photography/</guid>
       <description>Yes I know they&amp;rsquo;re mostly my dogs Pictures of my little family unit.</description>
     </item>
     
