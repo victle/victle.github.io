@@ -2,7 +2,7 @@
 <html lang="en-us">
 
     <head>
-	<meta name="generator" content="Hugo 0.117.0">
+	<meta name="generator" content="Hugo 0.118.2">
         
 
 
@@ -73,7 +73,7 @@ Victor Le
                         victor le
                     </h1>
                     <div class="subtitle is-5 fade-in two">
-                        <p>hello! if you don&rsquo;t know me, i&rsquo;m a data scientist, and an avid learner. i&rsquo;ve worked in various fields throughout my career. you&rsquo;ll find a compendium of previous projects, past research, and otherwise tangentially related work. if you&rsquo;re even further interested, peruse some of hobby projects as well!</p>
+                        <p>hello! i&rsquo;m <em>(vik-ter lay)</em>. if you don&rsquo;t know me, i&rsquo;m a data scientist and a plant-based enthusiast 🌱. i&rsquo;ve worked in various fields throughout my career. here you&rsquo;ll find a compendium of previous projects, past research, and otherwise tangentially related work. if you&rsquo;re even further interested, peruse some of hobby projects as well!</p>
 
                     </div>
                     
@@ -170,12 +170,6 @@ Victor Le
                 
                 <a class="navbar-item" href="/#blog">Blog</a>
                 
-            
-            
-            
-            
-            
-            <a class="navbar-item" href="#lorem">Lorem Ipsum</a>
             
             
             
@@ -334,7 +328,7 @@ Victor Le
                                     
                                     
                                     
-                                    <img class="card-thumbnail" src="http://victorchanle.com/projects/photography/camera_hu3d03a01dcc18bc5be0e67db3d8d209a6_30380_302x0_resize_q75_box.jpg" alt ="camera.jpg">
+                                    <img class="card-thumbnail" src="http://victorchanle.com/projects/research/UM_Logo_hua726eb7d52e00b0b347db8d36187daab_71455_302x0_resize_q75_box.jpeg" alt ="UM_Logo.jpeg">
                                     
                                     
                                 </a>
@@ -343,8 +337,10 @@ Victor Le
                         
                         <div class="card-content has-text-centered top-pad">
                             <h1><a >
-                                Photography
+                                Academia
                             </a></h1>
+                            
+                            <p class="fa-xs">2017-2021</p>
                             
                         </div>
                     </div>
@@ -362,7 +358,7 @@ Victor Le
                                     
                                     
                                     
-                                    <img class="card-thumbnail" src="http://victorchanle.com/projects/design/plant_hu3d03a01dcc18bc5be0e67db3d8d209a6_34602_302x0_resize_q75_box.jpg" alt ="plant.jpg">
+                                    <img class="card-thumbnail" src="http://victorchanle.com/projects/music/midbloom_hu607c2e3f9ea117db8cfac56c8a22ad90_122923_302x0_resize_box_3.png" alt ="midbloom.png">
                                     
                                     
                                 </a>
@@ -371,10 +367,8 @@ Victor Le
                         
                         <div class="card-content has-text-centered top-pad">
                             <h1><a >
-                                Design
+                                Music
                             </a></h1>
-                            
-                            <p class="fa-xs">June-December</p>
                             
                         </div>
                     </div>
@@ -415,12 +409,31 @@ Victor Le
                     
                 
                 
-                <p>Though exact details of my work are proprietary, I can highlight the breadth of the work that I&rsquo;ve performed at Frontier Communcations. For context, Frontier Communications is a large-sized telecommunications company, aiming to provide fiber and copper service across the United States. In my current role, I worked on the network strategy team, harnessing network data (i.e., bit rate) to push data-driven decisions for the operations teams.</p>
+                <p>TLDR</p>
+<p>At Frontier Communications, I enabled powerful analyses of disparate datasets by developing and maintaining complex cloud-based ETL pipelines. Subsequently, I built robust, predictive models and dashboards to empower network operations teams&rsquo; responses to customer service issues.</p>
+
+<h1 id="description" class="anchor-link"><a href="#description">Description</a></h1>
+<p>Though exact details are proprietary, I will highlight the breadth of the work that I&rsquo;ve performed at Frontier Communcations. For context, Frontier Communications is a large-sized telecommunications company, aiming to provide fiber and copper service across the United States. In my current role, I work on the network analytics team, harnessing network data (i.e., bit rates, outages) to push data-driven decisions for the operations teams.</p>
+<p>My biggest challenge at Frontier involved growing the company&rsquo;s data maturity. Frontier, as an organization, had gathered a veritable gold mine of data by capturing automated responses from millions of network devices across the country (the size of one of the largest datasets was over a petabyte). However, I joined the company at a time when the tools to wrangle said data were underdeveloped. As such, I contributed to developing the architecture and protocols for extracting, processing, and analyzing data. The resulting data pipeline accelerated my ability to work with and analyze many internal datasets.</p>
+<p>Being on the network team, reducing outages and optimizing network performance were a main driver for my projects. In one of my largest projects, I deployed a full-scale anomaly detection model, identifying several thousand customers that have recently experienced poor network service. I remember struggling with the many different ways to optimize the model performance. For example, I rigorously tested and reflected on the benefits and drawbacks of various outlier detection models (i.e., one-class SVMs, CBLOF, isolation forests, autoencoders) and ultimately made the most informed decision based on my sample analyses.</p>
+<p>Additionally, here is a short list of my main responsbilities and achievements:</p>
 <ul>
-<li>Constructed numerous ETL pipelines by leveraging cloud architecture and data engineering practices</li>
-<li>Compiled disjoint data sets to create a large-scale, standardized database used across network teams</li>
-<li>Swiftly delivered key analyses of the telecoms network using automated dashboards</li>
-<li>Developed machine learning models to identify and improve customer experience and service</li>
+<li>Constructed numerous ETL pipelines by leveraging cloud-based services and data engineering practices</li>
+<li>Compiled, cleaned, and processed various data sets stored across multiple platforms to generate a large-scale, standardized data lake used widely among cross-functional network teams</li>
+<li>Swiftly delivered ad-hoc key analyses and insights to network teams</li>
+<li>Developed machine learning models to detect anomalies in service among copper DSL customers</li>
+</ul>
+
+<h2 id="skills-and-tools" class="anchor-link"><a href="#skills-and-tools">Skills and Tools</a></h2>
+<ul>
+<li>Pyspark - for distributed computing and handling big data in combination with Delta</li>
+<li>MLflow - used for logging and tracking ML experiments</li>
+<li>scikit-learn - primary library for training my ML models</li>
+<li>SQL - used for querying our data lakes, and accessing various servers</li>
+<li>GitLab - version control software for our codebase</li>
+<li>AWS - cloud services for storing data, spinning up clusters, and managing security credentials</li>
+<li>Databricks - platform for scheduling our workflows, and interacting with the data</li>
+<li>Spotfire, PowerBI - dashboarding tools for visualizing key results and insights</li>
 </ul>
 
             </section>
@@ -435,69 +448,33 @@ Victor Le
         <div class="modal-card">
             
             <header class="modal-card-header bottom-pad">
-                <h1 class="modal-card-title has-text-centered">Photography</h1>
+                <h1 class="modal-card-title has-text-centered">Academia</h1>
             </header>
             
+            
+            <p class="fa-xs">2017-2021</p>
                      
             <section class="modal-card-body markdown">
                 
                 
                 
-                <div class="owl-carousel owl-theme">
-                
                     
                         
                         
-                        <div class="item owl-height">
-                        
-                            <img src="http://victorchanle.com/projects/photography/camera_hu3d03a01dcc18bc5be0e67db3d8d209a6_30380_640x0_resize_q75_box.jpg" class="img-responsive" alt="camera.jpg">
-                        
-                        </div>
-                        
-                    
-                        
-                        
-                        <div class="item owl-height">
-                        
-                            <img src="http://victorchanle.com/projects/photography/erik-jan-leusink-180382-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_82088_640x0_resize_q75_box.jpg" class="img-responsive" alt="erik-jan-leusink-180382-unsplash.jpg">
-                        
-                        </div>
-                        
-                    
-                        
-                        
-                        <div class="item owl-height">
-                        
-                            <img src="http://victorchanle.com/projects/photography/lorene-farrugia-JpmC-tAHiVA-unsplash_hu5e0d05c41608c807d4e7962ffe4f3978_970605_640x0_resize_q75_box.jpg" class="img-responsive" alt="lorene-farrugia-JpmC-tAHiVA-unsplash.jpg">
-                        
-                        </div>
-                        
-                    
-                        
-                        
-                        <div class="item owl-height">
-                        
-                            <img src="http://victorchanle.com/projects/photography/mario-ho-277298-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_19450_640x0_resize_q75_box.jpg" class="img-responsive" alt="mario-ho-277298-unsplash.jpg">
-                        
-                        </div>
-                        
-                    
-                        
-                        
-                        <div class="item owl-height">
-                        
-                            <img src="http://victorchanle.com/projects/photography/tyler-lastovich-285380-unsplash_hu3d03a01dcc18bc5be0e67db3d8d209a6_20716_640x0_resize_q75_box.jpg" class="img-responsive" alt="tyler-lastovich-285380-unsplash.jpg">
-                        
-                        </div>
+                            <img src="http://victorchanle.com/projects/research/UM_Logo_hua726eb7d52e00b0b347db8d36187daab_71455_640x0_resize_q75_box.jpeg" class="img-responsive" alt="UM_Logo.jpeg">
                         
                     
                 
-                </div>
                 
                 
-                
-<h2 id="sometimes-i-take-pictures" class="anchor-link"><a href="#sometimes-i-take-pictures">Sometimes I take pictures</a></h2>
-<p>This project is about the pictures I take. Sometimes, they are pictures of cats.</p>
+<h1 id="academic-research" class="anchor-link"><a href="#academic-research">Academic Research</a></h1>
+<p>At the University of Michigan in Ann Arbor, I researched specific applications of wearable devices for secondary health monitoring. In particular, my research focused on the intersection of data science, signal processing, and biomechanics towards preventing motion sickness and dehydration.</p>
+
+<h2 id="motion-sickness" class="anchor-link"><a href="#motion-sickness">Motion Sickness</a></h2>
+<p>WIP</p>
+
+<h2 id="dehydration" class="anchor-link"><a href="#dehydration">Dehydration</a></h2>
+<p>WIP</p>
 
             </section>
         </div>
@@ -511,11 +488,9 @@ Victor Le
         <div class="modal-card">
             
             <header class="modal-card-header bottom-pad">
-                <h1 class="modal-card-title has-text-centered">Design</h1>
+                <h1 class="modal-card-title has-text-centered">Music</h1>
             </header>
             
-            
-            <p class="fa-xs">June-December</p>
                      
             <section class="modal-card-body markdown">
                 
@@ -524,13 +499,13 @@ Victor Le
                     
                         
                         
-                            <img src="http://victorchanle.com/projects/design/plant_hu3d03a01dcc18bc5be0e67db3d8d209a6_34602_640x0_resize_q75_box.jpg" class="img-responsive" alt="plant.jpg">
+                            <img src="http://victorchanle.com/projects/music/midbloom_hu607c2e3f9ea117db8cfac56c8a22ad90_122923_640x0_resize_box_3.png" class="img-responsive" alt="midbloom.png">
                         
                     
                 
                 
-                <p>This theme was designed by <a href="https://victoria.dev">Victoria Drake</a>. Go on, explore! 💪</p>
-<p>If you want to use it for your website, check out the section at the bottom of the main page. 👍</p>
+                <p>A personal project between me and my friends. i hit things.</p>
+<p><a href="https://open.spotify.com/artist/4s8lQ9XtGoKDCOhVtrNYKb?si=S0A4SDL8QcOlyRMoHPqqeA">Spotify</a></p>
 
             </section>
         </div>
@@ -565,13 +540,10 @@ Victor Le
         <h2 class="title is-2 has-text-centered">Latest Post</h2>
         
         <div class="summary">
-            Feb 21, 2022
-            <h3 class="title is-3 latest-post-title"><a href="http://victorchanle.com/blog/multi-author/">Support for Multiple Authors</a></h3>
+            
+            <h3 class="title is-3 latest-post-title"><a href="http://victorchanle.com/blog/no-date/">Nothing Here Yet!</a></h3>
             <div class="markdown">
-                Using Introduction, your site can feature multiple authors. Each post displays a byline &ndash; the name of a post&rsquo;s author &ndash; if the author field is set in the post front matter. For example, here&rsquo;s the front matter for this post:
---- title: &#34;Support for Multiple Authors&#34; date: 2022-02-20T02:04:06-05:00 tags: [&#34;features&#34;, &#34;blog&#34;] series: [&#34;quickstart&#34;] author: [&#34;Hugo Contributors&#34;] --- You can list one or more authors. For example, here&rsquo;s a byline with two credits:
-                
-                <a href="http://victorchanle.com/blog/multi-author/">Read more</a>
+                Stay tuned.
                 
             </div>
         </div>
@@ -605,42 +577,11 @@ Victor Le
         
         
         
-        
-
-        
-        <div class="section" id="lorem">
-            <div class="container">
-                <h2 class="title is-2 has-text-centered">Lorem Ipsum</h2>
-                
-                <div class="markdown has-text-centered">
-                    <p>You can add more sections to the home page by adding files to the <code>/content/home/</code> folder.</p>
-
-                </div>
-                
-            </div>
-            
-            <div class="container has-text-centered top-pad">
-    <a href="#top">
-        <i class="fa fa-arrow-up"></i>
-    </a>
-</div>
-
-        </div>
-        <div class="container">
-            <hr>
-        </div>
-        
-        
-        
-        
-        
-        
         <div class="section" id="contact">
             <div class="container has-text-centered">
                 <h2 class="title is-2">Contact</h2>
                 <div class="markdown">
-                    <p>In the Contact section of <strong>Introduction</strong>, you may optionally display the current time in your preferred timezone.</p>
-<p>This lets visitors know what sort of response time to expect when they contact you. The timezone is easily set in the <code>config.toml</code> file. See the exampleSite configuration for instructions.</p>
+                    <p>if you have further interest in my work or want to keep in touch, feel free to reach out to me at my email. 📨</p>
 
                 </div>
                 
@@ -701,7 +642,7 @@ Victor Le
         <div class="section" id="footer">
     <div class="container has-text-centered">
     
-        Credit to <a href="https://victoria.dev/">Victoria Drake</a>, original developer of this theme.
+        Cheers to <a href="https://victoria.dev/">Victoria Drake</a> for developing the original theme!
     
     </div>
 </div>

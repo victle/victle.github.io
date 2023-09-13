@@ -12,37 +12,39 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://victorchanle.com/projects/frontier-communications/</guid>
-      <description>Though exact details of my work are proprietary, I can highlight the breadth of the work that I&amp;rsquo;ve performed at Frontier Communcations. For context, Frontier Communications is a large-sized telecommunications company, aiming to provide fiber and copper service across the United States. In my current role, I worked on the network strategy team, harnessing network data (i.e., bit rate) to push data-driven decisions for the operations teams.
-Constructed numerous ETL pipelines by leveraging cloud architecture and data engineering practices Compiled disjoint data sets to create a large-scale, standardized database used across network teams Swiftly delivered key analyses of the telecoms network using automated dashboards Developed machine learning models to identify and improve customer experience and service </description>
+      <description>TLDR
+At Frontier Communications, I enabled powerful analyses of disparate datasets by developing and maintaining complex cloud-based ETL pipelines. Subsequently, I built robust, predictive models and dashboards to empower network operations teams&amp;rsquo; responses to customer service issues.
+Description Though exact details are proprietary, I will highlight the breadth of the work that I&amp;rsquo;ve performed at Frontier Communcations. For context, Frontier Communications is a large-sized telecommunications company, aiming to provide fiber and copper service across the United States.</description>
     </item>
     
     <item>
-      <title>Photography</title>
+      <title>Academia</title>
+      <link>http://victorchanle.com/projects/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://victorchanle.com/projects/research/</guid>
+      <description>Academic Research At the University of Michigan in Ann Arbor, I researched specific applications of wearable devices for secondary health monitoring. In particular, my research focused on the intersection of data science, signal processing, and biomechanics towards preventing motion sickness and dehydration.
+Motion Sickness WIP
+Dehydration WIP</description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>http://victorchanle.com/projects/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://victorchanle.com/projects/music/</guid>
+      <description>A personal project between me and my friends. i hit things.
+Spotify</description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
       <link>http://victorchanle.com/projects/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://victorchanle.com/projects/photography/</guid>
-      <description>Sometimes I take pictures This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>http://victorchanle.com/projects/design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://victorchanle.com/projects/design/</guid>
-      <description>This theme was designed by Victoria Drake. Go on, explore! 💪
-If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
-    </item>
-    
-    <item>
-      <title>Writing</title>
-      <link>http://victorchanle.com/projects/writing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://victorchanle.com/projects/writing/</guid>
-      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.
-To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+      <description>Yes I know they&amp;rsquo;re mostly my dogs Pictures of my little family unit.</description>
     </item>
     
   </channel>
